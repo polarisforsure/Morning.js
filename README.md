@@ -30,7 +30,7 @@ To use the morning.js script, follow these steps:
 
 6. (Optional) You can customize the time when the message is sent, the language (English or Swedish), and the name of the Microsoft Teams chat by providing command-line arguments when starting the script. For example, the following command would send the message in Swedish at 08:00 instead of 07:30:
 ```bash
-  node morning.js 00 08 sv
+  node morning.js [time] [language] [chat]
 ```
 The command-line arguments are specified in the following order: time language chat, where time is the time when the message should be sent (in the format mm hh * * d-w), language is the language to use for the message (en for English or sv for Swedish), and chat is the name of the Microsoft Teams chat. If you omit any of these arguments, the script will use the default values specified in the script.
 
